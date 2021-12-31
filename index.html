@@ -5,27 +5,29 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <link rel="icon" href="rs_school_js.ico">
+    <link rel="icon" href="assets/rs_school_js.ico">
     <title>Sergey Zholobov</title>
 </head>
 <body>
     <header class="header">
       <nav >
           <ul class="nav-menu">
-            <li><a href="#contacts">Contacts</a></li>
-            <li><a href="#about">About me</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#code">Code example</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#english">English level</a></li>
+            <li><a class="link" href="#contacts">Contacts</a></li>
+            <li><a class="link" href="#about">About me</a></li>
+            <li><a class="link" href="#skills">Skills</a></li>
+            <li><a class="link" href="#code">Code example</a></li>
+            <li><a class="link" href="#projects">Projects</a></li>
+            <li><a class="link" href="#english">English level</a></li>
           </ul>
       </nav>
     </header>
     <main class="main">
+        <section class="name-avatar">
         <h1>Sergey Zholobov</h1>
         <p>
-        <img class="avatar" src="avatar.jpg" alt="avatar">
+        <img class="avatar" src="assets/avatar.jpg" alt="avatar">
         </p>
+        </section>
         <section id="contacts">
             <h2>Contacts</h2>
             <ul>
@@ -35,7 +37,7 @@
         </section>
         <section id="about">
             <h2>About me</h2>
-            <p>My goal: finish Stage-0 and get to know the professon of a Front-end developer</p>
+            <p>My goal: finish Stage-0 and get to know the profession of a Front-end developer.</p>
             <P>My strenghts are easily assimilate information in the workflow. My friends tell me that i have good soft skils.</P>
         </section>
         <section id="skills">
@@ -48,29 +50,38 @@
         </section>
         <section id="code">
             <h2>Code example</h2>
-        </section>
+                <pre>
+                function multiply(a, b){
+                    return a * b
+                   }
+                </pre>
+              </section>
         <section id="projects">
             <h2>Projects</h2>
-            <p>In this course we haven't task for making any apps</p>
+            <p>This is my first JS-courses. And we haven't made any apps or other projects.
+
+            </p>
         </section>
         <section id="english">
             <h2>English level</h2>
-            <p>Pre-immidiate</p>
+            <p>Intermediate (B1) <i>(If you ask me a question,
+             i can understand what you mean,
+             but it will take me a while to answer)</i></p>
         </section>
     </main>
     <footer class="footer">
        <ul class="footer-menu">
            <li>
                <a class="git" href="https://github.com/SergeyZholobov">
-                   <img src="2048px-Octicons-mark-github.svg.png" width="50" alt="GitHub logo">
+                   <img src="assets/2048px-Octicons-mark-github.svg.png" width="50" alt="GitHub logo">
                </a>
            </li>
            <li>
-            Made in 2021
+            2021 
            </li>
            <li>
             <a href="https://rs.school/js/">
-               <img src="rs_school_js.svg" width="100" alt="Course logo">
+               <img src="assets/rs_school_js.svg" width="100" alt="Course logo">
             </a>
             </li>
        </ul>
