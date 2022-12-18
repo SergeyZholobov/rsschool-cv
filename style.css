@@ -63,7 +63,7 @@ h1 {
     list-style: none;
     display: flex;
     justify-content: space-around;
-    color: peru;
+    color: #dfa86a;
 }
 .portfolio {
     display: flex;
