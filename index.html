@@ -1,1 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets/rs_school_js.ico">
+    <title>CV</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav class="nav">
+                <ul class="nav-list">
+                  <li><a class="nav-link" href="#contacts">Contacts</a></li>
+                  <li><a class="nav-link" href="#about">About me</a></li>
+                  <li><a class="nav-link" href="#skills">Skills</a></li>
+                  <li><a class="nav-link" href="#code-example">Code example</a></li>
+                  <li><a class="nav-link" href="#projects">Projects</a></li>
+                  <li><a class="nav-link" href="#language">English level</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
 
+    <main>
+        <div class="container">
+            <section class="section">
+                <div class="avatar"><img class="avatar" src="assets/avatar.jpg" alt="avatar"></div>
+            </section>
+            <section class="section" id="profile">
+                <h1 class="section-title"> Sergey Zholobov</h1>
+            </section>
+            <section class="section" id="contacts">
+                <h2 class="section-title">Contacts</h2>
+                <ul>
+                    <li>Discord: SergeyZholobov (@sergeyzholobov)</li>
+                    <li>E-mail: zholobov94@mail.ru</li>
+                </ul>
+            </section>
+            <section class="section" id="about">
+                <h2 class="section-title">About me</h2>
+                <p>Hi,my name is Sergey. I want to be Front-End developer.</p>
+            </section>
+            <section class="section" id="skills">
+                <h2 class="section-title">My skills</h2>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS Basics</li>
+                    <li>CSS Flex</li>
+                    <li>CSS Grid</li>
+                    <li>Git</li>
+                    <li>JS Basics</li>
+                </ul>
+            </section>
+            <section class="section" id="code-example">
+                <h2 class="section-title">Code example</h2>
+                <pre>
+                    function dataReverse(data) {
+                        let result = 0;
+                        for (i = 8; i <=data.length; i=i) {
+                          result = data.splice(0,8) + ',' + result ;
+                        }
+                        let string = result.slice(0, result.length-2);
+                        return string.split(',').map((el) => Number(el))
+                      }
+                    </pre>
+            </section>
+            <section class="section" id="projects">
+                <h2 class="section-title">My projects</h2>
+                <div class="portfolio">
+                    <a href="https://rolling-scopes-school.github.io/sergeyzholobov-JSFEPRESCHOOL/Portfolio">
+                        <img src="assets/Screenshot_19.png" alt="Portfolio" width="622" height="392">
+                    </a>
+                </div>
+            </section>
+            <section class="section" id="language">
+                <h2 class="section-title">Language</h2>
+                <ul>
+                    <li>English: Intermediate (B1) (If you ask me a question, i can understand what you mean, but it will take me a while to answer)</li>
+                    <li>Russian: Native speaker</li>
+                </ul>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <ul class="footer-menu">
+                <li>
+                    <a class="git" href="https://github.com/SergeyZholobov">
+                        <img src="assets/2048px-Octicons-mark-github.svg.png" width="50" alt="GitHub logo">
+                    </a>
+                </li>
+                <li>
+                 2022
+                </li>
+                <li>
+                 <a href="https://rs.school/js/">
+                    <img src="assets/rsschool-white.svg" width="100" alt="Course logo">
+                 </a>
+                 </li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>
